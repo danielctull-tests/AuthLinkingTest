@@ -16,7 +16,34 @@
 		240A0D56175771910002316F /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 240A0D55175771910002316F /* Default.png */; };
 		240A0D58175771910002316F /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 240A0D57175771910002316F /* Default@2x.png */; };
 		240A0D5A175771910002316F /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 240A0D59175771910002316F /* Default-568h@2x.png */; };
+		240A0D6C175771F90002316F /* libDCTAuth.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 240A0D67175771F00002316F /* libDCTAuth.a */; };
+		240A0D6E175771FE0002316F /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 240A0D6D175771FE0002316F /* Security.framework */; };
+		240A0D70175772030002316F /* libresolv.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 240A0D6F175772030002316F /* libresolv.dylib */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		240A0D66175771F00002316F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 240A0D60175771F00002316F /* DCTAuth.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 24FA8FE415E93D8E00E1ED99;
+			remoteInfo = DCTAuth;
+		};
+		240A0D68175771F00002316F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 240A0D60175771F00002316F /* DCTAuth.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 24FA8FF515E93D8E00E1ED99;
+			remoteInfo = DCTAuthTests;
+		};
+		240A0D6A175771F00002316F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 240A0D60175771F00002316F /* DCTAuth.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 24FA901315E93E0200E1ED99;
+			remoteInfo = "DCTAuth Demo";
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		240A0D40175771910002316F /* AuthLinkingTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AuthLinkingTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -32,6 +59,9 @@
 		240A0D55175771910002316F /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		240A0D57175771910002316F /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		240A0D59175771910002316F /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		240A0D60175771F00002316F /* DCTAuth.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = DCTAuth.xcodeproj; path = DCTAuth/DCTAuth.xcodeproj; sourceTree = "<group>"; };
+		240A0D6D175771FE0002316F /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		240A0D6F175772030002316F /* libresolv.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libresolv.dylib; path = usr/lib/libresolv.dylib; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +69,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				240A0D70175772030002316F /* libresolv.dylib in Frameworks */,
+				240A0D6E175771FE0002316F /* Security.framework in Frameworks */,
+				240A0D6C175771F90002316F /* libDCTAuth.a in Frameworks */,
 				240A0D44175771910002316F /* UIKit.framework in Frameworks */,
 				240A0D46175771910002316F /* Foundation.framework in Frameworks */,
 				240A0D48175771910002316F /* CoreGraphics.framework in Frameworks */,
@@ -52,6 +85,7 @@
 			isa = PBXGroup;
 			children = (
 				240A0D49175771910002316F /* AuthLinkingTest */,
+				240A0D60175771F00002316F /* DCTAuth.xcodeproj */,
 				240A0D42175771910002316F /* Frameworks */,
 				240A0D41175771910002316F /* Products */,
 			);
@@ -68,6 +102,8 @@
 		240A0D42175771910002316F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				240A0D6F175772030002316F /* libresolv.dylib */,
+				240A0D6D175771FE0002316F /* Security.framework */,
 				240A0D43175771910002316F /* UIKit.framework */,
 				240A0D45175771910002316F /* Foundation.framework */,
 				240A0D47175771910002316F /* CoreGraphics.framework */,
@@ -97,6 +133,16 @@
 				240A0D59175771910002316F /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		240A0D61175771F00002316F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				240A0D67175771F00002316F /* libDCTAuth.a */,
+				240A0D69175771F00002316F /* DCTAuthTests.octest */,
+				240A0D6B175771F00002316F /* DCTAuth.app */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,12 +184,42 @@
 			mainGroup = 240A0D37175771910002316F;
 			productRefGroup = 240A0D41175771910002316F /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 240A0D61175771F00002316F /* Products */;
+					ProjectRef = 240A0D60175771F00002316F /* DCTAuth.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				240A0D3F175771910002316F /* AuthLinkingTest */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		240A0D67175771F00002316F /* libDCTAuth.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libDCTAuth.a;
+			remoteRef = 240A0D66175771F00002316F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		240A0D69175771F00002316F /* DCTAuthTests.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = DCTAuthTests.octest;
+			remoteRef = 240A0D68175771F00002316F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		240A0D6B175771F00002316F /* DCTAuth.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = DCTAuth.app;
+			remoteRef = 240A0D6A175771F00002316F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		240A0D3E175771910002316F /* Resources */ = {
@@ -280,6 +356,7 @@
 				240A0D5F175771910002316F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
