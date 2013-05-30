@@ -1,0 +1,3 @@
+[submodule "DCTAuth"]
+	path = DCTAuth
+	url = git://github.com/danielctull/DCTAuth.git
