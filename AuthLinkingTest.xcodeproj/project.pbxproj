@@ -1,0 +1,287 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		240A0D44175771910002316F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 240A0D43175771910002316F /* UIKit.framework */; };
+		240A0D46175771910002316F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 240A0D45175771910002316F /* Foundation.framework */; };
+		240A0D48175771910002316F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 240A0D47175771910002316F /* CoreGraphics.framework */; };
+		240A0D4E175771910002316F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 240A0D4C175771910002316F /* InfoPlist.strings */; };
+		240A0D50175771910002316F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 240A0D4F175771910002316F /* main.m */; };
+		240A0D54175771910002316F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 240A0D53175771910002316F /* AppDelegate.m */; };
+		240A0D56175771910002316F /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 240A0D55175771910002316F /* Default.png */; };
+		240A0D58175771910002316F /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 240A0D57175771910002316F /* Default@2x.png */; };
+		240A0D5A175771910002316F /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 240A0D59175771910002316F /* Default-568h@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		240A0D40175771910002316F /* AuthLinkingTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AuthLinkingTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		240A0D43175771910002316F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		240A0D45175771910002316F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		240A0D47175771910002316F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		240A0D4B175771910002316F /* AuthLinkingTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AuthLinkingTest-Info.plist"; sourceTree = "<group>"; };
+		240A0D4D175771910002316F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		240A0D4F175771910002316F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		240A0D51175771910002316F /* AuthLinkingTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AuthLinkingTest-Prefix.pch"; sourceTree = "<group>"; };
+		240A0D52175771910002316F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		240A0D53175771910002316F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		240A0D55175771910002316F /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		240A0D57175771910002316F /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		240A0D59175771910002316F /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		240A0D3D175771910002316F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				240A0D44175771910002316F /* UIKit.framework in Frameworks */,
+				240A0D46175771910002316F /* Foundation.framework in Frameworks */,
+				240A0D48175771910002316F /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		240A0D37175771910002316F = {
+			isa = PBXGroup;
+			children = (
+				240A0D49175771910002316F /* AuthLinkingTest */,
+				240A0D42175771910002316F /* Frameworks */,
+				240A0D41175771910002316F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		240A0D41175771910002316F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				240A0D40175771910002316F /* AuthLinkingTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		240A0D42175771910002316F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				240A0D43175771910002316F /* UIKit.framework */,
+				240A0D45175771910002316F /* Foundation.framework */,
+				240A0D47175771910002316F /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		240A0D49175771910002316F /* AuthLinkingTest */ = {
+			isa = PBXGroup;
+			children = (
+				240A0D52175771910002316F /* AppDelegate.h */,
+				240A0D53175771910002316F /* AppDelegate.m */,
+				240A0D4A175771910002316F /* Supporting Files */,
+			);
+			path = AuthLinkingTest;
+			sourceTree = "<group>";
+		};
+		240A0D4A175771910002316F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				240A0D4B175771910002316F /* AuthLinkingTest-Info.plist */,
+				240A0D4C175771910002316F /* InfoPlist.strings */,
+				240A0D4F175771910002316F /* main.m */,
+				240A0D51175771910002316F /* AuthLinkingTest-Prefix.pch */,
+				240A0D55175771910002316F /* Default.png */,
+				240A0D57175771910002316F /* Default@2x.png */,
+				240A0D59175771910002316F /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		240A0D3F175771910002316F /* AuthLinkingTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 240A0D5D175771910002316F /* Build configuration list for PBXNativeTarget "AuthLinkingTest" */;
+			buildPhases = (
+				240A0D3C175771910002316F /* Sources */,
+				240A0D3D175771910002316F /* Frameworks */,
+				240A0D3E175771910002316F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AuthLinkingTest;
+			productName = AuthLinkingTest;
+			productReference = 240A0D40175771910002316F /* AuthLinkingTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		240A0D38175771910002316F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Daniel Tull";
+			};
+			buildConfigurationList = 240A0D3B175771910002316F /* Build configuration list for PBXProject "AuthLinkingTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 240A0D37175771910002316F;
+			productRefGroup = 240A0D41175771910002316F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				240A0D3F175771910002316F /* AuthLinkingTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		240A0D3E175771910002316F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				240A0D4E175771910002316F /* InfoPlist.strings in Resources */,
+				240A0D56175771910002316F /* Default.png in Resources */,
+				240A0D58175771910002316F /* Default@2x.png in Resources */,
+				240A0D5A175771910002316F /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		240A0D3C175771910002316F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				240A0D50175771910002316F /* main.m in Sources */,
+				240A0D54175771910002316F /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		240A0D4C175771910002316F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				240A0D4D175771910002316F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		240A0D5B175771910002316F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		240A0D5C175771910002316F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		240A0D5E175771910002316F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AuthLinkingTest/AuthLinkingTest-Prefix.pch";
+				INFOPLIST_FILE = "AuthLinkingTest/AuthLinkingTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		240A0D5F175771910002316F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AuthLinkingTest/AuthLinkingTest-Prefix.pch";
+				INFOPLIST_FILE = "AuthLinkingTest/AuthLinkingTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		240A0D3B175771910002316F /* Build configuration list for PBXProject "AuthLinkingTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				240A0D5B175771910002316F /* Debug */,
+				240A0D5C175771910002316F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		240A0D5D175771910002316F /* Build configuration list for PBXNativeTarget "AuthLinkingTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				240A0D5E175771910002316F /* Debug */,
+				240A0D5F175771910002316F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 240A0D38175771910002316F /* Project object */;
+}
